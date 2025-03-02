@@ -104,7 +104,7 @@ def heart():
                 value=ris,
                 key="my_circular_progress")
     
-        if st.button("View the Accuracy"):
+        if st.button("View the Accuracy") and st.button('Predict'):
             my_circular_progress.st_circular_progress()
         
 
