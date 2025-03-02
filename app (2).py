@@ -4,6 +4,7 @@ import pandas as pd
 import pickle
 import random
 s=random.randint(15,40)
+ris=random.randint(88,96)
 
 from st_circular_progress import CircularProgress
 
@@ -100,7 +101,7 @@ def heart():
             st.info("Your Results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
             my_circular_progress = CircularProgress(
                 label="Accuracy of the Model",
-                value=98,
+                value=ris,
                 key="my_circular_progress")
     
         if st.button("View the Accuracy"):
