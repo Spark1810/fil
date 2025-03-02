@@ -80,9 +80,6 @@ def heart():
                 label="Accuracy",
                 value=riskrate,
                 key="my_circular_progress")
-            but=st.button("View the Accuracy")
-            if but:
-                my_circular_progress.st_circular_progress()
             
             st.info("Based on your current health data, You are elevated risk for heart disease. Its important to schedule an appointment with your doctor soon.")
             
@@ -105,9 +102,9 @@ def heart():
                 label="Accuracy of the Model",
                 value=98,
                 key="my_circular_progress")
-            but=st.button("View the Accuracy")
-            if but:
-                my_circular_progress.st_circular_progress()
+    
+        if st.button("View the Accuracy"):
+            my_circular_progress.st_circular_progress()
         
 
 
