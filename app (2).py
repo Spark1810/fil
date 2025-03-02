@@ -78,9 +78,10 @@ def heart():
             st.markdown(f"<p style='background-color:{bg_color}; color:white; padding:10px;'>Prediction: {prediction_result}<br>Heart Risk Rate : {riskrate}%</p>", unsafe_allow_html=True)
             
             my_circular_progress = CircularProgress(
-                label="Accuracy",
+                label="Accuracy of the Result",
                 value=riskrate,
                 key="my_circular_progress")
+            my_circular_progress.st_circular_progress()
             
             st.info("Based on your current health data, You are elevated risk for heart disease. Its important to schedule an appointment with your doctor soon.")
             
@@ -97,14 +98,14 @@ def heart():
             prediction_result = 'Negative'
             confidence = prediction_proba[0][1] if prediction[0] == 1 else prediction_proba[0][0]
             riskrate=0
-            st.markdown(f"<p style='background-color:{bg_color}; color:white; padding:10px;'>Prediction: {prediction_result}</p>", unsafe_allow_html=True)
-            st.info("Your Results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
             my_circular_progress = CircularProgress(
-                label="Accuracy of the Model",
+                label="Accuracy of the Result",
                 value=ris,
                 key="my_circular_progress")
-    
-        my_circular_progress.st_circular_progress()
+            my_circular_progress.st_circular_progress()
+            st.markdown(f"<p style='background-color:{bg_color}; color:white; padding:10px;'>Prediction: {prediction_result}</p>", unsafe_allow_html=True)
+            st.info("Your Results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
+            
         
 
 
