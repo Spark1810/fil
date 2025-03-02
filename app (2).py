@@ -80,7 +80,7 @@ def heart():
             st.markdown(f"<p style='background-color:{bg_color}; color:white; padding:10px;'>Prediction: {prediction_result}<br>Heart Risk Rate : {riskrate}%</p>", unsafe_allow_html=True)
             
             my_circular_progress = CircularProgress(
-                label="Accuracy of the Result",
+                label="Accuracy of Riskrate",
                 value=riskrate,
                 key="my_circular_progress")
             my_circular_progress.st_circular_progress()
