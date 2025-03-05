@@ -7,6 +7,18 @@ s=random.randint(15,40)
 
 from st_circular_progress import CircularProgress
 
+def chart(value1,label1):
+    cp = CircularProgress(
+        value=value1, 
+        label=label1,
+        size="Large",
+        key="constant_circular_progress"
+    )
+    cp.st_circular_progress()
+
+
+
+
 model_filename = './model/model.pkl'
 
 with open(model_filename, 'rb') as file:
@@ -75,15 +87,8 @@ def heart():
             confidence = prediction_proba[0][1] if prediction[0] == 1 else prediction_proba[0][0]
             riskrate=(((confidence*10000)//1)/100)-s
             st.markdown(f"<p style='background-color:{bg_color}; color:white; padding:10px;'>Prediction: {prediction_result}<br>Heart Risk Rate : {riskrate}%</p>", unsafe_allow_html=True)
-            
-            my_circular_progress = CircularProgress(
-                label="Accuracy",
-                value=riskrate,
-                key="my_circular_progress")
-            
-            my_circular_progress.st_circular_progress()
-            my_circular_progress.update_values(progress=riskrate)
-            
+
+            chart(riskrate,"Accuracy of RiskRate")
             st.info("Based on your current health data, You are elevated risk for heart disease. Its important to schedule an appointment with your doctor soon.")
             
             st.subheader("Suggestion : Nearby Heart Specialist")
@@ -101,12 +106,7 @@ def heart():
             riskrate=0
             st.markdown(f"<p style='background-color:{bg_color}; color:white; padding:10px;'>Prediction: {prediction_result}</p>", unsafe_allow_html=True)
             st.info("Your Results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
-            my_circular_progress = CircularProgress(
-                label="Accuracy of the Model",
-                value=98,
-                key="my_circular_progress")
-            my_circular_progress.st_circular_progress()
-            my_circular_progress.update_values(progress=98)
+            chart(98,"Accuracy of the Model")
 
 
 st.title("Heart Risk Rate Detection System ")
