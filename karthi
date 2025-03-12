@@ -14,6 +14,7 @@ st.title("Alzheimer Detection ")
 activities = ["Introduction", "Statistics", "Prediction", "About Us"]
 choice = st.sidebar.selectbox("Select Activities", activities)
 if choice == 'Introduction':
+    st.image("projectimage.jpg")
     st.markdown(
         "Alzheimer is a term used to describe a group of symptoms affecting memory, thinking and social abilities severely enough to interfere with your daily life. It isn't a specific disease, but several diseases can cause Alzheimer. Though Alzheimer generally involves memory loss, memory loss has different causes")
     st.title("A look into the scientific side of demenetia ")
