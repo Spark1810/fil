@@ -348,12 +348,19 @@ elif choice == 'Prediction':
     sv=st.button("Predict")
     if sv:
         if mmse > 26.77:
-            st.success('Your Result : You dont have Alzheimers', icon="✅")
+            st.success('Your results look good ! No signs of Alzheimer's detected.', icon="✅")
+            st.info("Remember, a healthy mind thrives with good habits and positivity.")
             
             re = "Non Dementiated"
         else:
             re = "Dementiated"
-            st.warning('Your Result : You have Alzheimers', icon="⚠️")
+            st.warning('Your results indicate possible signs of Alzheimer's. ', icon="⚠️")
+            st.info("Remember, early detection is key, and there are steps you can take moving forward.")
+            st.info(Engage in brain exercises like puzzles, reading, or memory games.")
+            st.info(Adopt a Mediterranean diet rich in fruits, vegetables, and healthy fats.")
+            st.info(Incorporate regular physical exercise to improve blood flow to the brain.")
+            st.info(Maintain a consistent sleep schedule to improve memory and cognitive stability.")
+            st.info(Early consultation with a medical expert can help manage the condition effectively")
             from plyer import notification
             import time
     
