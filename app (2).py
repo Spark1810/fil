@@ -4,19 +4,7 @@ import pandas as pd
 import pickle
 import random
 s=random.randint(15,40)
-"""
-from st_circular_progress import CircularProgress
 
-def chart(value1,label1):
-    cp = CircularProgress(
-        value=value1, 
-        label=label1,
-        size="Large",
-        key="constant_circular_progress"
-    )
-    cp.st_circular_progress()
-
-"""
 
 
 model_filename = './model/model.pkl'
@@ -61,6 +49,7 @@ def heart():
 
 
     if st.button('Predict'):
+        
         user_input = pd.DataFrame(data={
             'age': [age],
             'sex': [sex_num],  
