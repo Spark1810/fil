@@ -14,6 +14,11 @@ with open(model_filename, 'rb') as file:
 
 
 def heart():
+    if "predict_clicked" not in st.session_state:
+        st.session_state.predict_clicked = False
+    if "accuracy_clicked" not in st.session_state:
+        st.session_state.accuracy_clicked = False
+
     st.title('Heart Disease Prediction')
     age = st.slider('Age', 18, 100, 50)
     sex_options = ['Male', 'Female']
@@ -49,6 +54,8 @@ def heart():
 
 
     if st.button('Predict'):
+        st.session_state.predict_clicked = True  # Store button click state
+        st.session_state.accuracy_clicked = False
         
         user_input = pd.DataFrame(data={
             'age': [age],
@@ -78,6 +85,11 @@ def heart():
             st.markdown(f"<p style='background-color:{bg_color}; color:white; padding:10px;'>Prediction: {prediction_result}<br>Heart Risk Rate : {riskrate}%</p>", unsafe_allow_html=True)
             
             accuracybtn=st.button("Accuracy of RiskRate")
+            if st.session_state.predict_clicked:
+    if st.button("Show Accuracy"):
+        st.session_state.accuracy_clicked = True  # Store accuracy button click state
+
+            
             if accuracybtn:
                 progress_bar=st.progress(0)
                 for ed in range(0,riskrate+1):
