@@ -89,12 +89,14 @@ def heart():
     if st.button("Show Accuracy"):
         st.session_state.accuracy_clicked = True  # Store accuracy button click state
 
-            
-            if accuracybtn:
+             if accuracybtn:
+                 if st.session_state.accuracy_clicked:
                 progress_bar=st.progress(0)
                 for ed in range(0,riskrate+1):
                     time.sleep(0.01)
                     progress_bar.progress(ed)
+
+        
                 
             st.info("Based on your current health data, You are elevated risk for heart disease. Its important to schedule an appointment with your doctor soon.")
             
@@ -115,7 +117,12 @@ def heart():
             st.info("Your Results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
             
             accuracybtn=st.button("Accuracy of Model")
-            if accuracybtn:
+            if st.session_state.predict_clicked:
+    if st.button("Show Accuracy"):
+        st.session_state.accuracy_clicked = True  # Store accuracy button click state
+
+             if accuracybtn:
+                 if st.session_state.accuracy_clicked:
                 progress_bar=st.progress(0)
                 for ed in range(0,98):
                     time.sleep(0.01)
