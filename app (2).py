@@ -86,15 +86,13 @@ def heart():
             
             accuracybtn=st.button("Accuracy of RiskRate")
             if st.session_state.predict_clicked:
-    if st.button("Show Accuracy"):
-        st.session_state.accuracy_clicked = True  # Store accuracy button click state
-
-             if accuracybtn:
-                 if st.session_state.accuracy_clicked:
-                progress_bar=st.progress(0)
-                for ed in range(0,riskrate+1):
-                    time.sleep(0.01)
-                    progress_bar.progress(ed)
+                if accuracybtn:
+                    st.session_state.accuracy_clicked = True  # Store accuracy button click state
+                    if st.session_state.accuracy_clicked:
+                        progress_bar=st.progress(0)
+                        for ed in range(0,riskrate+1):
+                            time.sleep(0.01)
+                            progress_bar.progress(ed)
 
         
                 
@@ -118,15 +116,13 @@ def heart():
             
             accuracybtn=st.button("Accuracy of Model")
             if st.session_state.predict_clicked:
-    if st.button("Show Accuracy"):
-        st.session_state.accuracy_clicked = True  # Store accuracy button click state
-
-             if accuracybtn:
-                 if st.session_state.accuracy_clicked:
-                progress_bar=st.progress(0)
-                for ed in range(0,98):
-                    time.sleep(0.01)
-                    progress_bar.progress(ed)
+                if accuracybtn:
+                    st.session_state.accuracy_clicked = True  # Store accuracy button click state
+                if st.session_state.accuracy_clicked:
+                    progress_bar=st.progress(0)
+                    for ed in range(0,98):
+                        time.sleep(0.01)
+                        progress_bar.progress(ed)
 
 
 st.title("Heart Risk Rate Detection System ")
