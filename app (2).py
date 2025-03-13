@@ -87,8 +87,14 @@ def heart():
             confidence = prediction_proba[0][1] if prediction[0] == 1 else prediction_proba[0][0]
             riskrate=(((confidence*10000)//1)/100)-s
             st.markdown(f"<p style='background-color:{bg_color}; color:white; padding:10px;'>Prediction: {prediction_result}<br>Heart Risk Rate : {riskrate}%</p>", unsafe_allow_html=True)
-
-            chart(riskrate,"Accuracy of RiskRate")
+            
+            accuracybtn=st.button("Accuracy of RiskRate")
+            if accuracybtn:
+                progress_bar=st.progress(0)
+                for ed in range(0,riskrate+1):
+                    time.sleep(0.01)
+                    progress_bar.progress(ed)
+                
             st.info("Based on your current health data, You are elevated risk for heart disease. Its important to schedule an appointment with your doctor soon.")
             
             st.subheader("Suggestion : Nearby Heart Specialist")
@@ -106,7 +112,13 @@ def heart():
             riskrate=0
             st.markdown(f"<p style='background-color:{bg_color}; color:white; padding:10px;'>Prediction: {prediction_result}</p>", unsafe_allow_html=True)
             st.info("Your Results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
-            chart(98,"Accuracy of the Model")
+            
+            accuracybtn=st.button("Accuracy of Model")
+            if accuracybtn:
+                progress_bar=st.progress(0)
+                for ed in range(0,98):
+                    time.sleep(0.01)
+                    progress_bar.progress(ed)
 
 
 st.title("Heart Risk Rate Detection System ")
