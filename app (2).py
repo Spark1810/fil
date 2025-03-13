@@ -24,7 +24,17 @@ def display_progress(value, title="Accuracy", format_type="bar"):
         for i in range(value + 1):
             time.sleep(0.01)
             progress_bar.progress(i)
-    
+    elif format_type == "circular":
+        st.markdown(f"""
+            <div style="text-align: center;">
+                <svg width="150" height="150" viewBox="0 0 36 36">
+                    <path fill="none" stroke="#ddd" stroke-width="3.6" d="M18 2.084a15.916 15.916 0 1 1 0 31.832a15.916 15.916 0 1 1 0-31.832"/>
+                    <path fill="none" stroke="#4CAF50" stroke-width="3.6" stroke-dasharray="{value}, 100" d="M18 2.084a15.916 15.916 0 1 1 0 31.832"/>
+                    <text x="18" y="20" font-size="4" text-anchor="middle" fill="#333">{value}%</text>
+                </svg>
+            </div>
+        """, unsafe_allow_html=True)
+
 
 # Load the trained model
 model_filename = './model/model.pkl'
@@ -139,7 +149,7 @@ def heart():
 
             st.info("Your results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
 
-            display_progress(98, title="Accuracy of Model : 96.7%", format_type="bar")
+            display_progress(98, title="Accuracy of Model : 96.7%", format_type="circular")
 
 
 # Streamlit Sidebar Navigation
