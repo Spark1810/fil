@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 import random
 s=random.randint(15,40)
-
+"""
 from st_circular_progress import CircularProgress
 
 def chart(value1,label1):
@@ -16,7 +16,7 @@ def chart(value1,label1):
     )
     cp.st_circular_progress()
 
-
+"""
 
 
 model_filename = './model/model.pkl'
