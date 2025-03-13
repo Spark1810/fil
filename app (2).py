@@ -129,7 +129,7 @@ def heart():
                         f"Prediction: {prediction_result}<br>Heart Risk Rate: {riskrate}%</p>",
                         unsafe_allow_html=True)
 
-            display_progress(riskrate, title="Accuracy of Risk Rate", format_type="bar")
+            display_progress(riskrate, title="Accuracy of Risk Rate", format_type="circular")
 
 
             st.info("Based on your current health data, you are at elevated risk for heart disease. It's important to schedule an appointment with your doctor soon.")
@@ -149,7 +149,7 @@ def heart():
 
             st.info("Your results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
 
-            display_progress(98, title="Accuracy of Model : 96.7%", format_type="circular")
+            display_progress(96.7, title="Accuracy of Model : 96.7%", format_type="circular")
 
 
 # Streamlit Sidebar Navigation
