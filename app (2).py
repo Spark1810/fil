@@ -8,6 +8,24 @@ from PIL import Image
 # Random seed for risk rate fluctuation
 s = random.randint(15, 40)
 
+def display_progress(value, title="Accuracy", format_type="bar"):
+    """
+    Displays a progress bar or circular progress based on the format type.
+    
+    Parameters:
+    - value: Integer (percentage 0-100) for progress
+    - title: Title of the progress display
+    - format_type: "bar" for standard bar, "circular" for a circular display
+    """
+    st.subheader(title)
+    
+    if format_type == "bar":
+        progress_bar = st.progress(0)
+        for i in range(value + 1):
+            time.sleep(0.01)
+            progress_bar.progress(i)
+    
+
 # Load the trained model
 model_filename = './model/model.pkl'
 
@@ -101,12 +119,8 @@ def heart():
                         f"Prediction: {prediction_result}<br>Heart Risk Rate: {riskrate}%</p>",
                         unsafe_allow_html=True)
 
-            if st.button("Accuracy of RiskRate"):
-                st.session_state.accuracy_clicked = True
-                progress_bar = st.progress(0)
-                for ed in range(0, riskrate + 1):
-                    time.sleep(0.01)
-                    progress_bar.progress(ed)
+            display_progress(riskrate, title="Accuracy of Risk Rate", format_type="bar")
+
 
             st.info("Based on your current health data, you are at elevated risk for heart disease. It's important to schedule an appointment with your doctor soon.")
 
@@ -125,12 +139,7 @@ def heart():
 
             st.info("Your results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
 
-            if st.button("Accuracy of Model"):
-                st.session_state.accuracy_clicked = True
-                progress_bar = st.progress(0)
-                for ed in range(0, 98):
-                    time.sleep(0.01)
-                    progress_bar.progress(ed)
+            display_progress(98, title="Accuracy of Model", format_type="bar")
 
 
 # Streamlit Sidebar Navigation
