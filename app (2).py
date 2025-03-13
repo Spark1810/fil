@@ -139,7 +139,7 @@ def heart():
 
             st.info("Your results show low risk for heart disease. Keep up the good work with your diet, exercise, and regular health checkups.")
 
-            display_progress(98, title="Accuracy of Model", format_type="bar")
+            display_progress(98, title="Accuracy of Model : 96.7%", format_type="bar")
 
 
 # Streamlit Sidebar Navigation
