@@ -1,0 +1,103 @@
+
+Collecting User Input:
+
+Various health parameters are collected from the user.
+
+
+
+Normalizing the Input Data:
+
+The collected data is normalized using the mean and standard deviation values.
+
+
+
+Making Predictions:
+
+The normalized data is fed into the pre-trained model to get the prediction and prediction probabilities.
+
+
+
+Detailed Steps and Formula
+
+
+Collecting User Input:
+
+The user provides the following inputs:
+
+Age
+Sex (Male/Female)
+Chest Pain Type (Typical Angina, Atypical Angina, Non-anginal Pain, Asymptomatic)
+Resting Blood Pressure
+Cholesterol
+Fasting Blood Sugar (True/False)
+Resting Electrocardiographic Results (Normal, ST-T Abnormality, Left Ventricular Hypertrophy)
+Maximum Heart Rate Achieved
+Exercise Induced Angina (Yes/No)
+ST Depression Induced by Exercise Relative to Rest
+Slope of the Peak Exercise ST Segment (Upsloping, Flat, Downsloping)
+Number of Major Vessels Colored by Fluoroscopy
+Thalassemia (Normal, Fixed Defect, Reversible Defect)
+
+
+
+
+
+Normalizing the Input Data:
+
+The user input data is normalized using the mean and standard deviation values loaded from a pickle file.
+
+Pythonuser_input = (user_input - mean_std_values['mean']) / mean_std_values['std']
+
+
+
+Making Predictions:
+
+The normalized data is fed into the pre-trained model to get the prediction and prediction probabilities.
+
+Pythonprediction = model.predict(user_input)
+prediction_proba = model.predict_proba(user_input)
+
+
+
+Formula for Prediction
+The prediction formula is encapsulated within the machine learning model. However, the process can be summarized as follows:
+
+
+Input Vector (X):
+
+Create an input vector X X X from the user inputs.
+
+
+
+Normalization:
+
+Normalize the input vector X X X using the mean (μ \mu μ) and standard deviation (σ \sigma σ) values.
+Xnormalized=X−μσ
+X_{\text{normalized}} = \frac{X - \mu}{\sigma}
+Xnormalized​=σX−μ​
+
+
+
+Model Prediction:
+
+The normalized input vector Xnormalized X_{\text{normalized}} Xnormalized​ is fed into the pre-trained model to get the prediction (y^ \hat{y} y^​) and prediction probabilities (P(y^) P(\hat{y}) P(y^​)).
+y^=model.predict(Xnormalized)
+\hat{y} = \text{model.predict}(X_{\text{normalized}})
+y^​=model.predict(Xnormalized​)
+
+P(\hat{y}) = \text{model.predict_proba}(X_{\text{normalized}})
+
+
+
+
+Risk Rate Calculation:
+
+Calculate the heart risk rate based on the prediction probability and a random factor s s s.
+Risk Rate=((P(y^)×10000)÷1)÷100−s
+\text{Risk Rate} = \left( \left( P(\hat{y}) \times 10000 \right) \div 1 \right) \div 100 - s
+Risk Rate=((P(y^​)×10000)÷1)÷100−s
+
+
+
+Summary
+The formula for the prediction involves normalizing the user input data and feeding it into a pre-trained machine learning model to get the prediction and prediction probabilities. The heart risk rate is then calculated using the prediction probability and a random factor.
