@@ -372,3 +372,6 @@ MMSE	CDR	eTIV	nWBV	ASF	Group
 30	0	1319	0.801	1.331	Nondemented
 30	0	1327	0.796	1.323	Nondemented
 30	0	1333	0.801	1.317	Nondemented
+
+
+python program which should get the mmse, etiv,nwbv and asf from the user and check for those data in this and return its repective group value as demented or non demented. if the exact value couldnt be found then the nearest round of value from the table and return the respective group value. this is a python streamlit code
