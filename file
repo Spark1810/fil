@@ -1,377 +1,41 @@
-MMSE	CDR	eTIV	nWBV	ASF	Group
-27	0	1987	0.696	0.883	Nondemented
-30	0	2004	0.681	0.876	Nondemented
-23	0.5	1678	0.736	1.046	Demented
-28	0.5	1738	0.713	1.01	Demented
-22	0.5	1698	0.701	1.034	Demented
-28	0	1215	0.71	1.444	Nondemented
-27	0	1200	0.718	1.462	Nondemented
-28	0	1689	0.712	1.039	Nondemented
-29	0.5	1701	0.711	1.032	Nondemented
-30	0	1699	0.705	1.033	Nondemented
-28	0.5	1357	0.748	1.293	Demented
-27	1	1365	0.727	1.286	Demented
-27	1	1372	0.71	1.279	Demented
-30	0	1272	0.698	1.38	Nondemented
-29	0	1257	0.703	1.396	Nondemented
-27	0.5	1457	0.806	1.205	Demented
-24	0.5	1480	0.791	1.186	Demented
-30	0.5	1447	0.769	1.213	Demented
-29	0.5	1482	0.752	1.184	Demented
-29	0	1333	0.748	1.316	Nondemented
-29	0	1323	0.738	1.326	Nondemented
-29	0	1323	0.718	1.327	Nondemented
-30	0	1230	0.715	1.427	Nondemented
-30	0	1212	0.72	1.448	Nondemented
-29	0	1225	0.71	1.433	Nondemented
-21	0.5	1602	0.697	1.096	Demented
-16	1	1590	0.696	1.104	Demented
-25	0.5	1651	0.66	1.063	Demented
-23	0.5	1668	0.646	1.052	Demented
-29	0	1783	0.752	0.985	Nondemented
-27	0.5	1814	0.759	0.968	Nondemented
-30	0	1820	0.755	0.964	Nondemented
-27	0	1813	0.761	0.968	Nondemented
-30	0	1406	0.715	1.248	Converted
-29	0	1398	0.713	1.255	Converted
-27	0.5	1423	0.696	1.234	Converted
-29	0	1587	0.693	1.106	Converted
-28	0.5	1606	0.677	1.093	Converted
-26	0.5	1597	0.666	1.099	Converted
-26	0.5	1911	0.719	0.919	Demented
-25	0.5	1926	0.736	0.911	Demented
-30	0	1313	0.805	1.337	Nondemented
-29	0	1316	0.796	1.333	Nondemented
-21	0.5	1247	0.662	1.407	Demented
-21	0.5	1250	0.652	1.405	Demented
-27	0.5	1420	0.713	1.236	Demented
-27	0.5	1445	0.695	1.214	Demented
-29	0	1365	0.783	1.286	Nondemented
-30	0	1360	0.782	1.291	Nondemented
-30	0	1358	0.775	1.293	Nondemented
-30	0	1353	0.772	1.297	Nondemented
-22	0.5	1547	0.737	1.134	Demented
-21	1	1562	0.717	1.124	Demented
-29	0	1377	0.734	1.275	Nondemented
-30	0	1390	0.735	1.263	Nondemented
-30	0	1402	0.822	1.252	Nondemented
-30	0	1392	0.817	1.261	Nondemented
-30	0	1430	0.718	1.227	Converted
-30	0	1445	0.719	1.215	Converted
-28	0.5	1463	0.696	1.199	Converted
-21	0.5	1307	0.679	1.342	Demented
-24	0.5	1311	0.676	1.339	Demented
-29	0	1466	0.703	1.197	Nondemented
-30	0	1450	0.698	1.21	Nondemented
-30	0	1460	0.695	1.202	Nondemented
-30	0	1453	0.684	1.208	Nondemented
-30	0	1336	0.738	1.313	Nondemented
-27	0	1329	0.733	1.32	Nondemented
-30	0	1359	0.789	1.291	Nondemented
-30	0	1361	0.783	1.29	Nondemented
-30	0	1360	0.773	1.291	Nondemented
-29	0	1349	0.778	1.301	Nondemented
-27	0.5	1477	0.729	1.188	Demented
-29	0.5	1487	0.717	1.18	Demented
-26	0.5	1483	0.709	1.184	Demented
-26	0.5	1485	0.706	1.181	Demented
-26	0.5	1174	0.742	1.495	Demented
-25	0.5	1179	0.733	1.488	Demented
-25	0.5	1310	0.727	1.339	Demented
-27	0.5	1320	0.724	1.329	Demented
-23	0.5	1348	0.713	1.302	Demented
-27	0	1289	0.771	1.362	Converted
-28	0	1295	0.768	1.356	Converted
-28	0.5	1314	0.76	1.335	Converted
-29	0	1640	0.766	1.07	Nondemented
-29	0	1665	0.748	1.054	Nondemented
-26	0.5	1453	0.777	1.208	Demented
-26	0.5	1451	0.757	1.21	Demented
-21	1	1333	0.685	1.317	Demented
-15	1	1331	0.678	1.318	Demented
-22	1	1332	0.679	1.317	Demented
-30	0	1317	0.737	1.332	Nondemented
-29	0	1322	0.731	1.327	Nondemented
-20	0.5	1476	0.75	1.189	Demented
-22	1	1483	0.748	1.183	Demented
-29	0	1433	0.723	1.225	Nondemented
-27	0	1414	0.727	1.242	Nondemented
-19	1	1695	0.711	1.036	Demented
-21	1	1708	0.703	1.028	Demented
-19	1	1712	0.691	1.025	Demented
-7	1	1714	0.682	1.024	Demented
-4	1	1701	0.676	1.032	Demented
-30	0	1491	0.794	1.177	Nondemented
-30	0	1505	0.791	1.166	Nondemented
-30	0	1503	0.788	1.168	Nondemented
-20	0.5	1461	0.724	1.202	Demented
-17	1	1483	0.695	1.184	Demented
-29	0	1454	0.701	1.207	Nondemented
-29	0	1474	0.696	1.19	Nondemented
-30	0	1483	0.689	1.184	Nondemented
-29	0	1463	0.737	1.199	Nondemented
-30	0	1484	0.703	1.183	Nondemented
-29	0	1484	0.76	1.183	Nondemented
-28	0	1500	0.744	1.17	Nondemented
-29	0	1264	0.701	1.388	Converted
-24	0.5	1275	0.683	1.376	Converted
-29	0	1362	0.837	1.289	Nondemented
-27	0	1365	0.827	1.285	Nondemented
-28	0	1461	0.756	1.202	Nondemented
-30	0	1456	0.739	1.205	Nondemented
-30	0	1599	0.755	1.098	Nondemented
-29	0	1569	0.757	1.118	Nondemented
-30	0	1580	0.739	1.111	Nondemented
-30	0.5	1315	0.707	1.335	Demented
-26	0.5	1308	0.706	1.341	Demented
-29	0.5	1324	0.695	1.326	Demented
-29	0.5	1416	0.766	1.239	Demented
-28	0.5	1408	0.757	1.247	Demented
-30	0	1654	0.747	1.061	Nondemented
-30	0	1660	0.738	1.057	Nondemented
-30	0	1681	0.729	1.044	Nondemented
-29	0	1641	0.695	1.069	Nondemented
-30	0	1664	0.677	1.055	Nondemented
-29	0	1667	0.688	1.053	Nondemented
-30	0.5	1430	0.737	1.228	Demented
-27	0.5	1453	0.721	1.208	Demented
-23	1	1462	0.691	1.2	Demented
-26	0.5	1459	0.694	1.203	Demented
-18	0.5	1464	0.682	1.199	Demented
-30	1	1957	0.734	0.897	Demented
-30	0.5	1928	0.731	0.91	Demented
-30	0	1440	0.727	1.219	Nondemented
-29	0	1438	0.738	1.22	Nondemented
-29	0	1455	0.724	1.206	Nondemented
-28	0	1444	0.722	1.215	Nondemented
-30	0	1428	0.7	1.229	Nondemented
-29	0	1475	0.676	1.19	Nondemented
-29	0	1470	0.687	1.194	Nondemented
-30	0	1471	0.69	1.193	Nondemented
-28	0	1660	0.728	1.057	Nondemented
-29	0	1692	0.723	1.037	Nondemented
-29	0	1707	0.717	1.028	Nondemented
-30	0	1724	0.704	1.018	Nondemented
-30	0	1720	0.705	1.02	Nondemented
-27	1	1391	0.705	1.262	Demented
-28	1	1402	0.695	1.252	Demented
-29	0	1524	0.787	1.151	Nondemented
-28	0	1512	0.777	1.161	Nondemented
-28	0	1507	0.782	1.164	Nondemented
-29	0	1490	0.774	1.178	Nondemented
-29	0	1504	0.769	1.167	Nondemented
-25	0.5	1151	0.743	1.525	Demented
-22	0.5	1143	0.741	1.535	Demented
-30	0	1504	0.725	1.167	Nondemented
-29	0	1536	0.719	1.143	Nondemented
-30	0	1520	0.718	1.155	Nondemented
-28	0	1848	0.737	0.95	Nondemented
-29	0	1931	0.722	0.909	Nondemented
-28	0	1631	0.674	1.076	Nondemented
-28	0	1640	0.67	1.07	Nondemented
-30	0	1662	0.682	1.056	Nondemented
-23	0.5	1447	0.759	1.213	Demented
-16	1	1492	0.725	1.176	Demented
-16	1	1478	0.696	1.188	Demented
-25	0.5	1548	0.727	1.134	Demented
-30	0.5	1556	0.713	1.128	Demented
-28	0.5	1546	0.724	1.135	Demented
-26	0.5	1271	0.695	1.381	Demented
-26	0.5	1273	0.686	1.378	Demented
-29	0	1383	0.756	1.269	Nondemented
-27	0	1381	0.751	1.27	Nondemented
-28	0	1544	0.805	1.136	Nondemented
-28	0	1542	0.792	1.138	Nondemented
-26	1	1465	0.683	1.198	Demented
-21	2	1503	0.66	1.168	Demented
-21	1	1477	0.672	1.188	Demented
-20	1	1494	0.661	1.175	Demented
-29	0.5	1432	0.692	1.225	Demented
-27	1	1432	0.684	1.226	Demented
-29	0	1548	0.773	1.134	Nondemented
-29	0	1534	0.772	1.144	Nondemented
-30	0	1550	0.758	1.133	Nondemented
-28	0	1511	0.739	1.162	Nondemented
-29	0	1506	0.715	1.166	Nondemented
-28	0	1383	0.748	1.269	Converted
-27	0.5	1390	0.728	1.263	Converted
-30	0	1513	0.771	1.16	Nondemented
-30	0	1449	0.774	1.212	Nondemented
-30	0	1769	0.699	0.992	Nondemented
-29	0	1785	0.687	0.983	Nondemented
-29	0	1814	0.679	0.967	Nondemented
-29	0	1154	0.75	1.521	Nondemented
-28	0	1165	0.736	1.506	Nondemented
-30	0	1611	0.729	1.089	Nondemented
-30	0	1628	0.709	1.078	Nondemented
-30	0.5	1446	0.78	1.214	Demented
-28	0.5	1412	0.783	1.243	Demented
-27	0.5	1475	0.762	1.19	Demented
-23	0.5	1484	0.75	1.183	Demented
-29	0	1583	0.777	1.108	Nondemented
-30	0	1586	0.757	1.107	Nondemented
-30	0	1590	0.76	1.104	Nondemented
-30	0	1371	0.769	1.28	Nondemented
-30	0	1400	0.752	1.254	Nondemented
-30	0	1379	0.757	1.273	Nondemented
-29	0.5	1499	0.689	1.171	Demented
-29	0.5	1497	0.686	1.172	Demented
-30	0.5	1498	0.681	1.171	Demented
-30	0	1404	0.75	1.25	Converted
-30	0.5	1423	0.722	1.233	Converted
-30	0.5	1419	0.731	1.236	Converted
-25	0.5	1568	0.696	1.119	Demented
-17	1	1562	0.685	1.123	Demented
-29	0	1783	0.703	0.984	Nondemented
-30	0	1762	0.718	0.996	Nondemented
-22	1	1445	0.722	1.214	Demented
-21	1	1489	0.686	1.179	Demented
-25	0.5	1604	0.781	1.094	Demented
-27	0.5	1569	0.781	1.118	Demented
-28	0	1750	0.67	1.003	Nondemented
-29	0	1744	0.67	1.006	Nondemented
-17	0.5	1525	0.732	1.151	Demented
-17	0.5	1520	0.699	1.155	Demented
-27	0.5	1315	0.698	1.335	Demented
-20	0.5	1339	0.689	1.311	Demented
-23	0.5	1536	0.725	1.142	Demented
-28	0.5	1520	0.708	1.155	Demented
-27	0.5	1316	0.727	1.333	Demented
-27	1	1309	0.709	1.341	Demented
-27	0.5	1425	0.769	1.232	Demented
-28	0.5	1407	0.77	1.247	Demented
-30	0	1842	0.758	0.953	Nondemented
-30	0	1806	0.759	0.972	Nondemented
-30	0	1823	0.739	0.963	Nondemented
-29	0	1826	0.734	0.961	Nondemented
-30	0	1508	0.794	1.164	Converted
-26	0.5	1529	0.788	1.147	Converted
-28	0	1486	0.754	1.181	Nondemented
-29	0	1482	0.751	1.184	Nondemented
-30	0	1488	0.741	1.18	Nondemented
-25	1	1409	0.715	1.246	Demented
-15	2	1401	0.7	1.253	Demented
-30	0	1475	0.726	1.19	Nondemented
-30	0	1517	0.705	1.157	Nondemented
-30	0	1293	0.747	1.357	Nondemented
-30	0	1295	0.744	1.355	Nondemented
-29	0.5	1463	0.749	1.2	Demented
-27	0.5	1479	0.75	1.187	Demented
-29	0	1344	0.739	1.306	Nondemented
-29	0	1338	0.747	1.312	Nondemented
-29	0	1344	0.74	1.306	Nondemented
-29	0	1644	0.729	1.067	Converted
-29	0.5	1654	0.72	1.061	Converted
-29	0.5	1647	0.717	1.066	Converted
-29	0.5	1668	0.694	1.052	Converted
-30	0.5	1670	0.669	1.051	Converted
-28	0	1346	0.762	1.304	Nondemented
-29	0	1354	0.739	1.297	Nondemented
-30	0	1440	0.666	1.219	Nondemented
-30	0	1436	0.663	1.222	Nondemented
-29	0	1442	0.644	1.217	Nondemented
-30	0.5	1340	0.754	1.309	Converted
-25	0	1331	0.761	1.318	Converted
-29	0	1475	0.731	1.19	Converted
-28	0.5	1495	0.687	1.174	Converted
-29	0.5	1295	0.748	1.355	Demented
-28	0.5	1284	0.741	1.367	Demented
-30	0	1636	0.68	1.073	Nondemented
-27	0	1645	0.663	1.067	Nondemented
-28	0.5	1659	0.739	1.058	Demented
-30	0.5	1651	0.737	1.063	Demented
-29	0	1123	0.786	1.563	Nondemented
-28	0	1106	0.767	1.587	Nondemented
-29	0.5	1337	0.766	1.312	Demented
-29	0.5	1344	0.733	1.305	Demented
-26	0.5	1391	0.705	1.262	Demented
-27	0.5	1393	0.69	1.26	Demented
-25	0.5	1396	0.687	1.257	Demented
-30	0	1277	0.812	1.374	Nondemented
-29	0	1290	0.795	1.361	Nondemented
-29	0	1380	0.819	1.272	Nondemented
-28	0	1390	0.81	1.262	Nondemented
-30	0	1715	0.746	1.023	Nondemented
-30	0	1714	0.741	1.024	Nondemented
-29	0	1744	0.723	1.006	Nondemented
-30	0	1704	0.716	1.03	Converted
-30	0.5	1722	0.708	1.019	Converted
-30	0	1298	0.799	1.352	Converted
-29	0.5	1287	0.771	1.364	Converted
-20	1	1732	0.685	1.013	Demented
-20	1	1729	0.698	1.015	Demented
-29	0	1351	0.769	1.299	Nondemented
-29	0	1334	0.769	1.316	Nondemented
-28	0	1337	0.762	1.313	Nondemented
-30	0	1342	0.747	1.307	Nondemented
-29	0	1345	0.737	1.305	Nondemented
-30	0	1335	0.732	1.314	Nondemented
-30	0.5	1343	0.72	1.306	Demented
-27	1	1357	0.714	1.293	Demented
-29	0	1191	0.785	1.474	Nondemented
-29	0	1194	0.772	1.469	Nondemented
-29	0	1202	0.77	1.461	Nondemented
-29	0	1436	0.75	1.222	Nondemented
-28	0	1559	0.713	1.125	Nondemented
-30	0	1243	0.748	1.412	Nondemented
-30	0	1256	0.739	1.398	Nondemented
-19	1	1274	0.728	1.377	Demented
-18	1	1479	0.657	1.187	Demented
-29	0	1272	0.697	1.38	Nondemented
-29	0	1281	0.68	1.37	Nondemented
-29	0.5	1238	0.757	1.418	Demented
-28	0.5	1236	0.764	1.419	Demented
-27	0.5	1557	0.705	1.127	Demented
-29	1	1569	0.704	1.119	Demented
-29	0	1818	0.734	0.965	Nondemented
-30	0	1817	0.736	0.966	Nondemented
-29	0	1830	0.724	0.959	Nondemented
-23	0.5	1514	0.678	1.159	Demented
-22	0.5	1550	0.665	1.132	Demented
-23	1	1713	0.756	1.024	Demented
-25	2	1710	0.76	1.026	Demented
-23	1	1491	0.71	1.177	Demented
-17	1	1755	0.696	1	Demented
-30	0	1426	0.731	1.231	Nondemented
-30	0	1414	0.739	1.241	Nondemented
-30	0	1832	0.769	0.958	Nondemented
-30	0	1820	0.768	0.964	Nondemented
-30	0	1836	0.744	0.956	Nondemented
-30	0.5	1891	0.709	0.928	Demented
-29	0.5	1899	0.7	0.924	Demented
-30	0	1379	0.806	1.273	Nondemented
-30	0	1378	0.795	1.274	Nondemented
-30	0	1370	0.794	1.281	Nondemented
-26	0.5	1796	0.742	0.977	Demented
-28	0.5	1796	0.732	0.977	Demented
-28	0.5	1803	0.731	0.973	Demented
-30	0	1404	0.71	1.25	Converted
-30	0	1398	0.696	1.255	Converted
-30	0.5	1408	0.679	1.246	Converted
-26	0	1444	0.778	1.216	Nondemented
-28	0	1510	0.77	1.162	Nondemented
-29	0	1509	0.756	1.163	Nondemented
-28	0	1495	0.746	1.174	Nondemented
-30	0	1488	0.735	1.179	Nondemented
-26	0.5	1548	0.711	1.134	Demented
-26	0.5	1556	0.691	1.128	Demented
-26	0.5	1171	0.733	1.499	Demented
-	1	1169	0.742	1.501	Demented
-	1	1159	0.733	1.515	Demented
-23	0.5	1661	0.698	1.056	Demented
-20	0.5	1654	0.696	1.061	Demented
-30	0	1495	0.746	1.174	Nondemented
-30	0	1506	0.74	1.165	Nondemented
-30	0	1506	0.74	1.165	Nondemented
-30	0	1510	0.723	1.162	Nondemented
-24	0.5	1354	0.733	1.296	Demented
-21	1	1351	0.708	1.299	Demented
-28	0.5	1704	0.711	1.03	Demented
-28	0.5	1693	0.694	1.037	Demented
-26	0.5	1688	0.675	1.04	Demented
-30	0	1319	0.801	1.331	Nondemented
-30	0	1327	0.796	1.323	Nondemented
-30	0	1333	0.801	1.317	Nondemented
+import streamlit as st
+import pandas as pd
+from scipy.spatial import KDTree
 
+# Data in dictionary format
+data = {
+    'MMSE': [29, 27, 29, 29, 30, 28, 29, 28, 27, 30, 30, 30, 29, 29, 29, 28, 30, 30, 30, 30, 28, 27, 29, 30, 30, 30, 30, 30, 28, 28, 27, 23, 29, 30, 30, 30, 30, 30, 28, 28, 27, 29, 30, 30, 30, 30, 30, 29, 29, 30, 30, 30, 30, 30, 29, 30, 30, 30, 30, 28, 27, 30, 28, 27, 29, 28, 27, 29, 30, 30, 30, 30, 29, 29, 29, 29, 28, 30, 30, 30, 30, 29, 29, 29, 28],
+    'eTIV': [1432, 1432, 1548, 1534, 1550, 1511, 1506, 1383, 1390, 1513, 1449, 1769, 1785, 1814, 1154, 1165, 1611, 1628, 1446, 1412, 1475, 1484, 1583, 1586, 1590, 1548, 1619, 1443, 1479, 1507, 1429, 1502, 1491, 1554, 1420, 1452, 1686, 1784, 1569, 1575, 1425, 1688, 1564, 1551, 1550, 1556, 1753, 1777, 1560, 1781, 1472, 1520, 1444, 1517, 1561, 1477, 1579, 1778, 1566, 1441, 1469, 1505, 1522, 1526, 1603, 1481, 1467, 1503, 1568, 1495, 1478, 1576, 1558, 1442, 1490, 1509, 1553, 1549, 1482, 1779, 1562, 1508, 1557, 1473, 1431, 1571],
+    'nWBV': [0.692, 0.684, 0.773, 0.772, 0.758, 0.739, 0.715, 0.748, 0.728, 0.771, 0.774, 0.699, 0.687, 0.679, 0.75, 0.736, 0.729, 0.709, 0.78, 0.783, 0.762, 0.75, 0.777, 0.757, 0.76, 0.733, 0.727, 0.748, 0.772, 0.773, 0.764, 0.762, 0.768, 0.752, 0.735, 0.736, 0.685, 0.688, 0.713, 0.711, 0.703, 0.685, 0.731, 0.759, 0.752, 0.74, 0.703, 0.704, 0.741, 0.695, 0.719, 0.728, 0.71, 0.716, 0.737, 0.701, 0.711, 0.706, 0.724, 0.743, 0.745, 0.738, 0.73, 0.74, 0.718, 0.757, 0.762, 0.715, 0.724, 0.739, 0.758, 0.774, 0.75, 0.747, 0.727, 0.755, 0.752, 0.727, 0.712, 0.702, 0.745, 0.739, 0.718, 0.722],
+    'ASF': [1.225, 1.226, 1.134, 1.144, 1.133, 1.162, 1.166, 1.269, 1.263, 1.16, 1.212, 0.992, 0.983, 0.967, 1.521, 1.506, 1.089, 1.078, 1.214, 1.243, 1.19, 1.183, 1.108, 1.107, 1.104, 1.131, 1.119, 1.211, 1.134, 1.12, 1.148, 1.156, 1.173, 1.165, 1.212, 1.207, 1.013, 1.015, 1.176, 1.171, 1.186, 1.009, 1.196, 1.156, 1.179, 1.184, 1.005, 1.002, 1.174, 1.01, 1.198, 1.205, 1.199, 1.193, 1.177, 1.01, 1.181, 1.195, 1.181, 1.179, 1.15, 1.149, 1.168, 1.191, 1.18, 1.096, 1.095, 1.168, 1.16, 1.15, 1.171, 1.153, 1.181, 1.142, 1.12, 1.137, 1.147, 1.125, 1.144, 1.145, 1.16, 1.148, 1.145, 1.124, 1.151],
+    'Group': ['Demented', 'Demented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Converted', 'Converted', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Demented', 'Demented', 'Demented', 'Demented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Demented', 'Demented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Demented', 'Demented', 'Demented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Demented', 'Demented', 'Nondemented', 'Nondemented', 'Demented', 'Demented', 'Demented', 'Demented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented', 'Nondemented']
+}
 
-python program which should get the mmse, etiv,nwbv and asf from the user and check for those data in this and return its repective group value as demented or non demented. if the exact value couldnt be found then the nearest round of value from the table and return the respective group value. this is a python streamlit code
+# Create DataFrame from data
+df = pd.DataFrame(data)
+
+# Create KDTree for nearest neighbor search
+features = df[['MMSE', 'eTIV', 'nWBV', 'ASF']].values
+kdtree = KDTree(features)
+
+# Streamlit App
+def main():
+    st.title("Dementia Prediction System")
+    
+    # User inputs
+    mmse = st.number_input("Enter MMSE value:", min_value=18, max_value=30, value=28)
+    etiv = st.number_input("Enter eTIV value:", min_value=1100, max_value=1850, value=1500)
+    nwbv = st.number_input("Enter nWBV value:", min_value=0.65, max_value=0.80, value=0.74, step=0.001)
+    asf = st.number_input("Enter ASF value:", min_value=0.95, max_value=1.6, value=1.2, step=0.001)
+    
+    # Button to predict
+    if st.button("Predict Group"):
+        # Find nearest neighbor
+        _, idx = kdtree.query([mmse, etiv, nwbv, asf])
+        
+        # Get nearest group
+        group = df.iloc[idx]['Group']
+        st.success(f"The predicted group is: **{group}**")
+
+if __name__ == "__main__":
+    main()
